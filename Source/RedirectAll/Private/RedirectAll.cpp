@@ -89,15 +89,6 @@ void FRedirectAllModule::RegisterMenus()
 {
 	// Owner will be used for cleanup in call to UToolMenus::UnregisterOwner
 	FToolMenuOwnerScoped OwnerScoped(this);
-
-	{
-		UToolMenu* Menu = UToolMenus::Get()->ExtendMenu("LevelEditor.MainMenu.Window");
-		{
-			FToolMenuSection& Section = Menu->FindOrAddSection("WindowLayout");
-			Section.AddMenuEntryWithCommandList(FRedirectAllCommands::Get().PluginAction, PluginCommands);
-		}
-	}
-
 	{
 		UToolMenu* ToolbarMenu = UToolMenus::Get()->ExtendMenu("ContentBrowser.Toolbar");
 		{

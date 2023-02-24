@@ -6,7 +6,7 @@
 
 void FRedirectAllCommands::RegisterCommands()
 {
-	UI_COMMAND(PluginAction, "Redirect All", "Fix all redirectors in the content folder.", EUserInterfaceActionType::Button, FInputChord());
+	UI_COMMAND(PluginAction, "Redirect All", "Fix Up All Redirectors in the content folder.", EUserInterfaceActionType::Button, FInputChord());
 }
 
 #undef LOCTEXT_NAMESPACE
