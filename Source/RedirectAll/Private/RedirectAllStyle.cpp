@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Copyright 2023 Jeonghyeon Ha. All Rights Reserved.
 
 #include "RedirectAllStyle.h"
 #include "RedirectAll.h"
@@ -43,7 +43,7 @@ TSharedRef< FSlateStyleSet > FRedirectAllStyle::Create()
 	TSharedRef< FSlateStyleSet > Style = MakeShareable(new FSlateStyleSet("RedirectAllStyle"));
 	Style->SetContentRoot(IPluginManager::Get().FindPlugin("RedirectAll")->GetBaseDir() / TEXT("Resources"));
 
-	Style->Set("RedirectAll.PluginAction", new IMAGE_BRUSH_SVG(TEXT("PlaceholderButtonIcon"), Icon20x20));
+	Style->Set("RedirectAll.PluginAction", new IMAGE_BRUSH(TEXT("RedirectAll"), Icon20x20));
 	return Style;
 }
 

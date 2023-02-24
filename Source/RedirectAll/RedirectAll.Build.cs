@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Copyright 2023 Jeonghyeon Ha. All Rights Reserved.
 
 using UnrealBuildTool;
 

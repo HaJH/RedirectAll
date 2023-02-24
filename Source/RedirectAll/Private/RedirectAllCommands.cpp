@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Copyright 2023 Jeonghyeon Ha. All Rights Reserved.
 
 #include "RedirectAllCommands.h"
 
@@ -6,8 +6,6 @@
 
 void FRedirectAllCommands::RegisterCommands()
 {
-	// UI_COMMAND(PluginAction, "Redirect All", "Execute RedirectAll action", EUserInterfaceActionType::Button, FInputChord());
-	// UI_COMMAND(PluginAction, "Redirect All", "Perform a redirect on the entire content folder.", EUserInterfaceActionType::Button, FInputChord());
 	UI_COMMAND(PluginAction, "Redirect All", "Fix all redirectors in the content folder.", EUserInterfaceActionType::Button, FInputChord());
 }
 
