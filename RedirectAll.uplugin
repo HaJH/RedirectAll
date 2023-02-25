@@ -6,7 +6,7 @@
 	"Description": "A plugin that adds a 'Fix Up All Redirectors' button to your content browser toolbar",
 	"Category": "Content Browser",
 	"CreatedBy": "Jeonghyeon Ha",
-	"CreatedByURL": "",
+	"CreatedByURL": "https://github.com/HaJH/RedirectAll",
 	"DocsURL": "",
 	"MarketplaceURL": "",
 	"EngineVersion": "5.1.0",
